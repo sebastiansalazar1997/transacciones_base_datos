@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>transaccion</title>
+</head>
+
+<body>
+    <form action="base_de_datos.php" method="POST">
+        <div style='text-align:center'>
+            <div class="marco">
+                <h1>Transacciones en tu mejor banco bb ♥ </h1>
+                <td>Cuenta que realiza la transaccion: </td>
+                <input class="campo" type="text" name="cuenta_origen">
+                <br><br>
+                <td>Cuenta a la que le llega la transaccion: </td>
+                <input class="campo" type="text" name="cuenta_destino">
+                <br><br>
+                <td>valor o monto deseado: </td>
+                <input class="campo" type="text" name="valor">
+                <br><br>
+                <input class="campo" type="submit" onclick="alert(' Transaccion exitosa bb ♥ ')">
+                <input class="campo" type="reset">
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
